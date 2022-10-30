@@ -26,4 +26,3 @@ router.route('/:userId/:friendId')
   .delete(deleteFriend);
 
 module.exports = router;
-Footer
