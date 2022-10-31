@@ -97,23 +97,21 @@ You will also need the `Insomnia` application is needed on the user's machine to
 
 - To create or add a thought, click the `POST` request. Enter the `"thoughtText"`, `"username"`, `"userID"` of the user creating the thought.
 
-![create thought]()
+![create thought](./assets/images/thought-add.gif)
 
 - To get all thoughts, click the `GET All Thoughts` request. All the thoughts that were created will appear, as well as the date and time they were created. Each created thought is assigned a unique thought ID. Click `GET All Users` to access the thought ID.
 
-![get all thoughts]()
-
 - To get a thought by ID, click the `GET Thought by Id` request and enter the thought ID.
 
-![get thought by id]()
+![get thought by id](./assets/images/thought-id.gif)
 
 - To update a thought, click the `PUT` request. On the URL, enter the thought ID. Enter the necessary changes on the text body. To see the changes, click `GET All Thoughts`.
 
-![update thought]()
+![update thought](./assets/images/thought-update.gif)
 
 - To delete a thought by ID, click the `DELETE` request. On the URL, enter the thought ID that will be deleted.
 
-![delete thought]()
+![delete thought](./assets/images/thought-delete.gif)
 
 - When the thought is successfully deleted, the text can no longer be found when you try to access it by clicking `GET All Thoughts.` The thought ID is also deleted when you click `Find All Users.`
 
