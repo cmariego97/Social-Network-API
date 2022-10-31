@@ -40,7 +40,7 @@ module.exports = {
             res.status(500).json(err);
         });
     },
-        //remove a user
+        //delete a user
         deleteUser(req, res) {
         User.findOneAndRemove({ _id: req.params.userId })
             .then((user) =>
