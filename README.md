@@ -9,7 +9,7 @@ Here is a demonstration of how the API works using Insomnia:
 
 ![Social Networking API demo w/ Insomnia](./assets/social-network-api-demo.gif)
 
-To view the demonstration, click [♡ here ♡]()
+To view the demonstration, click [♡ here ♡](https://streamable.com/lxvs7y)
 
 ## Table of Contents
 
